@@ -15,7 +15,6 @@ download: true
 exportFilename: 'sharing-session-cli'
 highlighter: shiki
 lineNumbers: true
-favicon: 'https://nri.co.id/favicon.ico'
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 transition: fade-out
@@ -56,8 +55,6 @@ transition: slide-left
 
 # Introduction
 
-<br />
-
 Setiap *Operating System (OS)* pada dasarnya adalah antarmuka yang hadir antara *user* dan *hardware*.
 
 Beberapa OS (khususnya Linux distributions) hanya menyediakan *Command Line Interface (CLI)* kepada penggunanya, sementara beberapa menawarkan CLI dan *Graphical User Interface (GUI)*.
@@ -87,8 +84,6 @@ transition: slide-up
 ---
 
 # What is CLI
-
-<br />
 
 CLI pada dasarnya adalah media, di mana pengguna menulis perintah untuk menjawab *text prompt* dan kemudian menerima respons dari sistem/perangkat.
 
@@ -142,7 +137,7 @@ Informasi yang diakses pengguna melalui GUI akan ditampilkan dalam bentuk gambar
 
 <img
   v-click
-  class="h-70 shadow"
+  class="h-70 shadow rounded"
   src="/gitlab.png"
 />
 
@@ -325,7 +320,13 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 
 # More on Philosophy
 
-Sebenarnya masih ada banyak lagi *philosophy of good CLI design*, seperti *Ease of Discovery*, *Conversation as a Norm*, *Robustness*, *Empathy*, and *Chaos*. [^1]
+Sebenarnya masih ada banyak lagi *philosophy of good CLI design*, seperti: [^1]
+
+- *Ease of Discovery*
+- *Conversation as a Norm*
+- *Robustness*
+- *Empathy*
+- *Chaos*
 
 [^1]: [Learn More CLI Philosophy](https://clig.dev/#philosophy)
 
@@ -352,8 +353,8 @@ Sebenarnya masih ada banyak lagi *philosophy of good CLI design*, seperti *Ease 
 </style>
 
 <!--
-Sebenarnya masih ada banyak lagi philosophy of good CLI design ya.
-Cuma untuk menghemat waktu, jadi aku taro aja link referensinya disini ya biar kalo ada yang mau liat detail lengkapnya.
+Cuma untuk menghemat waktu, jadi disini kutaro aja link referensinya disini ya
+biar kalo ada yang mau liat detail lengkapnya bisa diklik aja itu linknya
 -->
 
 ---
@@ -376,7 +377,6 @@ Sebisa mungkin gunakan *command-line argument parsing library*. *Library* ini bi
 4. Java: [picocli](https://picocli.info/)
 5. Node: [oclif](https://oclif.io/)
 6. Deno: [flags](https://deno.land/std/flags)
-7. PHP: [console](https://github.com/symfony/console), [CLImate](https://climate.thephpleague.com/)
 8. Python: [argparse](https://docs.python.org/3/library/argparse.html), [Click](https://click.palletsprojects.com/), [Typer](https://github.com/tiangolo/typer)
 
 </div>
@@ -483,7 +483,16 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 # More on Guidelines
 
-Sebenarnya masih ada banyak lagi *CLI guidelines* yang bisa kita ikuti, seperti *Documentation*, *Output*, *Errors*, *Interactivity*, *Subcommands*, *Robustness*, *Future-proofing*, *Signals*, *Configuration*, *Environemtn variables*, *Naming*, *Distribution*, and *Analytics*. [^1]
+Sebenarnya masih ada banyak lagi *CLI guidelines* yang bisa kita ikuti, seperti: [^1]
+
+- *Output*
+- *Errors*
+- *Interactivity*
+- *Subcommands*
+- *Future-proofing*
+- *Signals*
+- *Configuration*
+- *Environment variables*
 
 [^1]: [Learn More CLI Guidelines](https://clig.dev/#guidelines)
 
@@ -510,18 +519,19 @@ Sebenarnya masih ada banyak lagi *CLI guidelines* yang bisa kita ikuti, seperti 
 </style>
 
 <!--
-Untuk link referensinya bisa diakses di footnote nya biar kalo ada yang mau liat detail lengkapnya.
+Untuk link referensinya bisa diakses di footnote nya
+biar kalo ada yang mau liat detail lengkapnya bisa langsung diklik aja.
 -->
 
 ---
-transition: slide-up
+transition: slide-left
 layout: cover
 background: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 # Let's build one
 
-Using `Git Bash`
+Using Git Bash
 
 <style>
   h1 {
@@ -529,18 +539,61 @@ Using `Git Bash`
   }
 </style>
 
+<!--
+Biar kita bisa lebih paham gimana cara kerjanya,
+Kita lanjut coba buat simple CLI program pake Git Bash
+
+*buka `demo` folder*
+-->
+
+---
+transition: slide-left
+layout: cover
+background: https://source.unsplash.com/collection/94734566/1920x1080
+---
+
+# Use-case
+
+Published javascript library in Gitlab Private Registry
+
+<style>
+  h1 {
+    color: white;
+  }
+</style>
+
+<!--
+Selanjutnya kita juga ada use-case program CLI dibuat khusus untuk tim frontend.
+source code nya ada di Gitlab dan sudah di published juga di Gitlab Private Registry
+
+*buka project `library/cli`*
+jadi disini aku sudah install package nya globally, jadi bisa langsung dipake aja
+-->
+
+<!--
+
+-->
+
 ---
 layout: center
 class: text-center
 ---
 
-# Learn More
-
-[`nregen` ](https://sli.dev) ·
+# Thank You 🙏
 
 <div class="abs-br m-6 flex gap-2">
+  <a href="https://cli-slidev.vercel.app" target="_blank" alt="GitHub"
+    class="text-xl icon-btn !border-none !hover:text-white">
+    <mdi-globe />
+  </a>
   <a href="https://github.com/rifandani/cli-slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
+    class="text-xl icon-btn !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
 </div>
+
+<style>
+  h1 {
+    color: white;
+  }
+</style>
