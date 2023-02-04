@@ -142,8 +142,8 @@ Informasi yang diakses pengguna melalui GUI akan ditampilkan dalam bentuk gambar
 
 <img
   v-click
-  class="h-70"
-  src="/gitlab.PNG"
+  class="h-70 shadow"
+  src="/gitlab.png"
 />
 
 <arrow v-click x1="250" y1="420" x2="150" y2="330" color="#0052CC" width="3" arrowSize="1" />
