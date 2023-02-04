@@ -1,9 +1,9 @@
 ---
 theme: seriph
-title: NRI Sharing Session
+title: Sharing Session
 titleTemplate: '%s - CLI'
 info: |
-  ## NRI Sharing Session
+  ## Sharing Session
 
   Date: Friday, 10 February 2023
 
@@ -12,10 +12,10 @@ info: |
   - [Source code](https://github.com/rifandani/cli-slidev)
 presenter: 'dev'
 download: true
-exportFilename: 'nri-sharing-session-cli'
+exportFilename: 'sharing-session-cli'
 highlighter: shiki
 lineNumbers: true
-favicon: 'https://time.nri.co.id/favicon.ico'
+favicon: 'https://nri.co.id/favicon.ico'
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 transition: fade-out
@@ -24,7 +24,7 @@ drawings:
   persist: false
 ---
 
-# NRI Sharing Session
+# Sharing Session
 
 Command Line Interface (CLI)
 
@@ -530,18 +530,13 @@ Using `Git Bash`
 </style>
 
 ---
-src: ./pages/multiple-entries.md
-hide: false
----
-
----
 layout: center
 class: text-center
 ---
 
 # Learn More
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+[`nregen` ](https://sli.dev) ·
 
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/rifandani/cli-slidev" target="_blank" alt="GitHub"
