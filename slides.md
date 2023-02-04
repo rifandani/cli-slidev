@@ -138,7 +138,7 @@ Informasi yang diakses pengguna melalui GUI akan ditampilkan dalam bentuk gambar
 <img
   v-click
   class="h-70 shadow rounded"
-  src="/gitlab.png"
+  src="https://raw.githubusercontent.com/rifandani/cli-slidev/main/public/gitlab.PNG"
 />
 
 <arrow v-click x1="250" y1="420" x2="150" y2="330" color="#0052CC" width="3" arrowSize="1" />
